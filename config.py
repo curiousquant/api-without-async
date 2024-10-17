@@ -1,8 +1,6 @@
-from dotenv import load_dotenv
 from pydantic_settings import BaseSettings, SettingsConfigDict
-import os
 
-load_dotenv()
+
 class Settings(BaseSettings):
     VERSION:str = "v1"
     DATABASE_URL: str
