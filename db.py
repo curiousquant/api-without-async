@@ -31,5 +31,6 @@ def get_session():
     return session
 
 def init_db():
+    print(__name__)
     Base.metadata.create_all
 

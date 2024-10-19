@@ -5,11 +5,6 @@ from config import Settings
 from config import settings
 from db import init_db
 
-
-
-
-    
-
 def create_app():
     app = FastAPI(
         description="This is a simple REST API for a news",

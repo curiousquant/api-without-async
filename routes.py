@@ -17,7 +17,6 @@ routes = APIRouter(
 )
 
 
-
 @routes.get("/")
 def home(request: Request):
     """Hello home"""
